@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+
+#executes run as ruby file in terminal with 'bin/run'
