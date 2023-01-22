@@ -1,0 +1,47 @@
+PATH
+  remote: .
+  specs:
+    drunken_mixologist (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bcrypt (3.1.18)
+    coderay (1.1.3)
+    date (3.3.3)
+    faraday (2.7.4)
+      faraday-net_http (>= 2.0, < 3.1)
+      ruby2_keywords (>= 0.0.4)
+    faraday-net_http (3.0.2)
+    method_source (1.0.0)
+    nokogiri (1.14.0-arm64-darwin)
+      racc (~> 1.4)
+    open-uri (0.3.0)
+      stringio
+      time
+      uri
+    pry (0.14.2)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    racc (1.6.2)
+    rake (13.0.6)
+    ruby2_keywords (0.0.5)
+    stringio (3.0.4)
+    time (0.2.1)
+      date
+    uri (0.12.0)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  bcrypt
+  drunken_mixologist!
+  faraday
+  nokogiri
+  open-uri
+  pry
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.4.5
