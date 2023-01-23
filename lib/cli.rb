@@ -57,7 +57,7 @@ class CLI
       currUser = Auth.authenticate_user(User.all, username, password)
       if currUser
         puts "I remember you now."
-        authernticated = true
+        authenticated = true
         @user = currUser
         welcome_user
       else
@@ -67,7 +67,7 @@ class CLI
   end
 
   def welcome_user
-    puts "Welcome back #{@user.username}. What'll it be?"
+    puts "Welcome back #{@user.username}. Thirsty for something new?"
   end
 
   def end_program
