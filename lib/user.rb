@@ -2,7 +2,7 @@ require 'pry'
 require_relative 'auth.rb' 
 
 class User
-  extends Auth 
+  extend Auth 
   attr_accessor :id, :username, :password
   @@users = [] #array of all user hashes, with IDs, usernames, and passwords
 
@@ -34,7 +34,7 @@ class User
   end
 
 
-  # def self.find(id)
-  #   self.all.find { |user| user.id == id }
-  # end
+  def self.find(id)
+    self.all.find { |user| user.id == id }
+  end
 end
