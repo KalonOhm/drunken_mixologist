@@ -75,7 +75,7 @@ class CLI
   end
 
   def menu
-    puts "What'll it be?"
+    puts "What're you thinking for your next glass?"
     puts "(Choose an Option, or Exit the bar)"
     list_options
 
