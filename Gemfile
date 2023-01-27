@@ -12,5 +12,6 @@ gem 'nokogiri'
 gem 'open-uri'
 gem 'pry'
 gem 'bcrypt'
+gem 'json'
 
 

@@ -13,6 +13,7 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
+    json (2.6.3)
     method_source (1.0.0)
     nokogiri (1.14.0-arm64-darwin)
       racc (~> 1.4)
@@ -38,6 +39,7 @@ DEPENDENCIES
   bcrypt
   drunken_mixologist!
   faraday
+  json
   nokogiri
   open-uri
   pry

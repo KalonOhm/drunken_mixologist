@@ -91,7 +91,7 @@ class CLI
     puts "4. Somethin' normal for a change. (Random standard cocktail)"
     puts "5. I'm the designated driver (Random non-alcoholic beverage, possibly random ingredients)"
     puts "6. I'll just have a water."
-    # puts "7. I've got an idea for a drink! (Enter ingredients, mixologist will assign random name to cocktail)"
+    # puts "7. I've got a recipe! (Enter ingredients, will assign random name to cocktail)"
   end
 
   def choose_option(input)
@@ -104,7 +104,7 @@ class CLI
       spirit = gets.chomp
       # drink_randomizer(spirit)
       # return spirit
-      #TODO: randomizer with chosen spirit
+      # TODO: randomizer with chosen spirit
 
 
     when "2"
@@ -112,7 +112,7 @@ class CLI
       puts "Feeling brave, or perhaps foolish..."
       puts "(The mixologist combines bottles like a mad alchemist, experimenting with a new formula)"
       # drink_randomizer
-      #TODO: make drink randomizer
+      # TODO: make drink randomizer
       
 
     when "3"
@@ -121,7 +121,7 @@ class CLI
       puts "(Enter a garnish or ingredient to start mixing)"
       garnish = gets.chomp
       # drink_randomizer(garnish)
-      #TODO: make randomizer
+      # TODO: make randomizer
       # return garnish
 
 
@@ -129,15 +129,15 @@ class CLI
       puts "Number 4 chosen"
       puts "Ain't no shame in that. I'll make you something standard."
       puts "(The mixologist seems disappointend nonetheless, and grabs some basic bottles)"
-      #limited_randomizer
-      #TODO: make limited randomizer: rum & coke, something with sprite, long island iced tea, etc.
+      # limited_randomizer
+      # TODO: make limited randomizer: rum & coke, something with sprite, long island iced tea, etc.
 
     
     when "5"
       puts "Number 5 chosen"
       puts "Awfully responsible of you. I'll fix you up something non-alcoholic."
       puts "(The mixologist gives an approving nod, then reaches for his wares)"
-      #TODO make random_sober option 
+      # TODO make random_sober option 
       # random_sober
 
     when "6"
@@ -150,8 +150,8 @@ class CLI
     when "7"
       puts "Number 7 chosen"
       puts "Alright, hit me. But I get to name this creation."
-      #  drink_crafter
-      #TODO: create drink crafter, random name generator
+      # drink_crafter
+      # TODO: create drink crafter, random name generator
 
     end
   end
